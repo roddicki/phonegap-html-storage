@@ -1,22 +1,21 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+# PhoneGap Project [![bitHound Score][bithound-img]][bithound-url]
 
-A PhoneGap Hello World template
+A PhoneGap project that demos the use of html local storage.
+The UI is built with Onsen.io
 
-## Usage
+## How to use
 
-#### PhoneGap CLI
 
-The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
+Create a new phonegap project using Phonegap cli or desktop app.
 
-    phonegap create my-app
+Replace the contents of the entire directory with this repository.
 
-Create an app using this template specifically:
+## More information
 
-    phonegap create my-app --template hello-world
+This repository differs from the standard “hello world” application by rewriting a simpler event handler that binds any custom JavaScript functions to the status of the mobile device (deviceready).
 
-To see a list of other available PhoneGap templates:
+The relevant code lives in www/js/index.js.
 
-    phonegap template list
 
 ## [config.xml][config-xml]
 
